@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    /* Everything is as according to original amazon.com web page*/
+   
+
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items : center;
+
+    /* To spread the content evenly on the navbar*/
+    justify-content : space-evenly;
+   
+}
+
+.nav-logo{
+    /* as a div element is not visible without a ht and width*/
+    height:50px;
+    width:100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    
+}
+
+.border{
+
+    /* Styling the border class in the nav-logo div class*/
+
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+
+    border: 1.5px solid white;
+}
+
+/* styling the address boxes on navbar*/
+
+
+.add-first{
+
+
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{
+
+    font-size: 1rem;
+    margin-left : 3px;
+}
+.add-icon{
+
+    display : flex;
+    align-items: center;
+}
+
+.nav-search{
+
+    display : flex;
+    justify-content: space-evenly ;
+    background-color: orange;
+    width: 620px;
+    height:40px;
+    border-radius: 4px;
+}
+
+/* Giving the search bar hover effect*/
+.nav-search:hover{
+
+    border : 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+
+    width: 45px;
+    display : flex;
+    /* to center it horizontally*/ 
+
+    justify-content: center;
+    /* to center it vertically*/
+    align-items: center;
+
+    /* To increase the size of the magnifying icon*/
+    font-size: 1.2rem;
+}
+
+.language-icon{
+
+    display: flex;
+}
+
+/* To set up a margin for EN*/
+#EN{
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-right : 5px;
+}
+
+/* dropdown arrow for accounts and lists*/
+#dropdown{
+
+    display: flex;
+    font-size: 12px;
+}
+
+/* Increasing the size of the cart icon*/
+.nav-cart i{
+
+    font-size : 30px;
+}
+/* Increasing the size of the cart */
+.nav-cart{
+
+    font-size : 0.85rem;
+    font-weight: 700;
+
+}
+
+
+
+/* Panel styling*/
+.panel{
+
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.panel-options p{
+
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+/* Hero section*/
+
+.hero-section{
+
+    background-image: url("Heropic.jpg");
+    height: 350px; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message{
+    background-color:white ;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-message a{
+
+    color: #007185;
+}
+
+/* ship section*/
+.shop-section{
+
+    display: flex;
+   
+    justify-content: space-evenly;
+
+    background-color: #e1f3b9;
+/* To put 4 boxes in one line*/
+    flex-wrap: wrap;
+
+}
+.box{
+
+   
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+
+    color: #007185;
+}
+
+/*Styling the sign in section*/
+.sign-in-sec{
+
+    height: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid #DDDDDD;
+    border-radius: 3%;
+    box-sizing: 128px;
+}
+
+.sign-in-sec a{
+    color: #007185;
+}
+
+.sign-in-sec button{
+
+    width: 230px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(247, 179, 53);
+    border-radius: 5px;
+
+}
+
+/* Styling the Footer */
+
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+
+    background-color: #37475a ;
+    color: white;
+    height: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 0.85rem;
+    padding: 15px 0px;
+}
+
+.foot-panel2{
+
+    background-color:#222f3d ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+
+    margin-top : 20px;
+}
+/* To put the anchor tags in seperate lines*/
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    
+}
+
+.foot-panel4{
+
+    background-color: #131A22;
+    color:#DDDDDD;
+    height: 80px;
+   
+    padding: 10px 0px 30px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.pages{
+
+  
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+    
+}
